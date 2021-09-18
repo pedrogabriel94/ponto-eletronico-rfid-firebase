@@ -13,11 +13,11 @@ constexpr uint8_t SS_PIN = D4;     // Configurable, see typical pin layout above
 MFRC522 rfid(SS_PIN, RST_PIN); // Instance of the class
 MFRC522::MIFARE_Key key;
 
-#define FIREBASE_HOST "ponto-eletronico-c4daf-default-rtdb.firebaseio.com"   
-#define FIREBASE_AUTH "UooPkjAkGftAxvQNCWgSZ0GWFNqbaLEgfUj1X46Y"   
+#define FIREBASE_HOST "URL_BANCO_FIREBASE"   
+#define FIREBASE_AUTH "TOKEN_FIREBASE"   
 
-#define WIFI_SSID "brisa-982938"
-#define WIFI_PASSWORD "chzdetcg"
+#define WIFI_SSID "NOME_WIFI"
+#define WIFI_PASSWORD "SENHA_WIFI"
 
 String tag; 
 
